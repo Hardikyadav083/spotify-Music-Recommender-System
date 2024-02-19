@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the dataset
-df = pd.read_csv("D:/HARDIK YADAV/datasets/data.csv")
+df = pd.read_csv("data.csv")
 
 # Features for normalization
 features = ['acousticness', 'danceability', 'duration_ms', 'energy',
